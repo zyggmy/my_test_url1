@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>我的第一个网页</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
-    h1 { color: #2c3e50; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本地测试网页 - 用于内容提取</title>
+    <style>
+        body { 
+            font-family: "Microsoft YaHei", sans-serif; 
+            line-height: 1.8; 
+            margin: 40px; 
+            background: #f9f9f9; 
+        }
+        h1, h2 { color: #2c3e50; }
+        .content { max-width: 800px; margin: 0 auto; }
+        .footer { margin-top: 50px; color: #7f8c8d; font-style: italic; }
+    </style>
 </head>
 <body>
-  <h1>🎉 成功了！</h1>
-  <p>这是我在 GitHub 上发布的第一个公网网页！</p>
-  <p>当前时间：2025年</p>
+    <div class="content">
+        <h1>本地测试网页</h1>
+        <p><strong>状态：</strong>正在测试网页内容提取功能</p>
+
+        <h2>第一段：测试文本</h2>
+        <p>
+            这是一段用于测试的文本。这是第二句。这是第三句。这是第四句。这是第五句。
+            TypeScript 可以成功读取这段内容吗？我们拭目以待。
+        </p>
+
+        <h2>第二段：人工智能简介</h2>
+        <p>
+            人工智能是计算机科学的重要分支，涉及机器学习、自然语言处理、计算机视觉等领域。
+            近年来，大模型技术（如 GPT、通义千问）取得了显著进展，广泛应用于聊天机器人、内容生成、代码辅助等场景。
+        </p>
+
+        <h2>第三段：TypeScript 优势</h2>
+        <p>
+            TypeScript 是 JavaScript 的超集，提供了静态类型检查，有助于大型项目开发。
+            它能有效减少运行时错误，提升代码可维护性，特别适合 Node.js 后端和前端工程化项目。
+        </p>
+
+        <h2>第四段：重复内容（用于验证完整性）</h2>
+        <p>【测试段落】这里是第 N 段测试文本，用于验证你的文本提取能力是否完整。</p>
+        <p>【测试段落】这里是第 N 段测试文本，用于验证你的文本提取能力是否完整。</p>
+        <p>【测试段落】这里是第 N 段测试文本，用于验证你的文本提取能力是否完整。</p>
+        <p>【测试段落】这里是第 N 段测试文本，用于验证你的文本提取能力是否完整。</p>
+        <p>【测试段落】这里是第 N 段测试文本，用于验证你的文本提取能力是否完整。</p>
+
+        <div class="footer">
+            <p>本页面仅在本地运行，用于测试网页内容抓取功能。</p>
+            <p>URL: http://localhost:8080</p>
+        </div>
+    </div>
 </body>
 </html>
